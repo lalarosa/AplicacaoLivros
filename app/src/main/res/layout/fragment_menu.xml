@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MenuFragment">
+
+    <TextView
+        android:id="@+id/tvMenuDeseja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deseja:" />
+
+    <Button
+        android:id="@+id/bMenuCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro" />
+
+    <Button
+        android:id="@+id/bMenuVisualizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visualização" />
+
+    <Button
+        android:id="@+id/bMenuSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair" />
+
+
+</LinearLayout>
