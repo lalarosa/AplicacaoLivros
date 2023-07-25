@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.aplicacaolivros.view.LoginFragment"
-        android:label="fragment_login"
+        android:label="Login"
         tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_menuFragment"
@@ -16,7 +16,7 @@
     <fragment
         android:id="@+id/menuFragment"
         android:name="com.example.aplicacaolivros.view.MenuFragment"
-        android:label="fragment_menu"
+        android:label="Menu"
         tools:layout="@layout/fragment_menu">
         <action
             android:id="@+id/action_menuFragment_to_cadastroFragment"
@@ -31,11 +31,11 @@
     <fragment
         android:id="@+id/cadastroFragment"
         android:name="com.example.aplicacaolivros.view.CadastroFragment"
-        android:label="fragment_cadastro"
+        android:label="Cadastro de Livros"
         tools:layout="@layout/fragment_cadastro" />
     <fragment
         android:id="@+id/visualizacaoFragment"
         android:name="com.example.aplicacaolivros.view.VisualizacaoFragment"
-        android:label="fragment_visualizacao"
+        android:label="Livros Cadastrados"
         tools:layout="@layout/fragment_visualizacao" />
 </navigation>

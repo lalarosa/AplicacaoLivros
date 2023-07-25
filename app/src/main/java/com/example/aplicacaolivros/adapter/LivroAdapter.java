@@ -31,9 +31,9 @@ public class LivroAdapter extends RecyclerView.Adapter<LivroAdapter.MyViewHolder
     public void onBindViewHolder(final LivroAdapter.MyViewHolder holder, @SuppressLint("RecyclerView") final int position) {
         Livro meuLivro = listaLivros.get(position);
         holder.itemListRowBinding.tvLivroTitulo.setText(meuLivro.getTitulo());
-        holder.itemListRowBinding.tvLivroDataLan.setText(String.valueOf(meuLivro.getAnoLancamento()));
-        holder.itemListRowBinding.tvLivroPreco.setText(String.valueOf(meuLivro.getPreco()));
-        holder.itemListRowBinding.tvLivroGenero.setText(meuLivro.getGeneroLiteral());
+        holder.itemListRowBinding.tvLivroDataLan.setText("Ano de lançamento: " + String.valueOf(meuLivro.getAnoLancamento()));
+        holder.itemListRowBinding.tvLivroPreco.setText("Preço: " + String.valueOf(meuLivro.getPreco()));
+        holder.itemListRowBinding.tvLivroGenero.setText("Gênero: " + meuLivro.getGeneroLiteral());
         /* CUIDADO: .setText() precisa sempre de String. Se for outro tipo de dado, deve ser feita a conversão com o String.valueOf() */
 
         // tratando o clique no item

@@ -70,6 +70,13 @@ public class CadastroFragment extends Fragment {
 
             }
         });
+
+        binding.bCadastroCancelar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                limpaCampos();
+            }
+        });
     }
 
     @Override
